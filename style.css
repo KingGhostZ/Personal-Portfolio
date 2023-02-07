@@ -1,0 +1,113 @@
+#projects {
+  background-color: rgb(240, 200, 8);
+  text-align: center;
+}
+#projects a {
+  color: black;
+}
+.projects {
+  max-width: 500px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid black;
+}
+.project-tile {
+  margin-right: 40px;
+  border-width: 200px;
+}
+.project-tile:hover {
+  transform: scale(1.2);
+}
+#experience {
+  background-color: rgb(255, 241, 208);
+}
+#experience li {
+  color: black;
+  margin-right: 40px;
+}
+#experience h2 {
+  color: black;
+  margin-right: 40px;
+}
+#Contact {
+  background-color: rgb(221, 28, 26);
+}
+main {
+  padding-top: 120px;
+}
+header {
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: rgb(7, 94, 124);
+  position: fixed;
+}
+li, a {
+  text-decoration: none; 
+  color: white;
+  font-size: 26px;
+  font-weight: 500;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 30px 10%;
+}
+
+.nav-links {
+  list-style: none;
+}
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover {
+  color: blue;
+}
+.topic {
+  color: white; 
+  font-size: 26px;
+  font-weight: 500;
+}
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+#welcome-section {
+  background-color: rgb(8, 103, 136);
+}
+h1 {
+  font-size: 40px;
+}
+p {
+  font-size: 30px;
+}
+#About {
+  background-color: rgb(7, 160, 195);
+}
+.format {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+#Contact li {
+  margin-right: 40px;
+}
+@media (max-width: 400px;) {
+  p {
+    font-size: 16px;
+  }
+}
